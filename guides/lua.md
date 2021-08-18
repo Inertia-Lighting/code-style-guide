@@ -7,15 +7,15 @@ We use 4 spaces for indentation.
 Example:
 ```lua
 function foo()
-    return 'bar'
+    return "bar"
 end
 ```
 
 ### Quotation Marks
-We use single quotes for strings.  
+We use double quotes for strings.  
 Example:
 ```lua
-local foo = 'bar'
+local foo = "bar"
 ```
 
 ### Semi-colons
@@ -26,9 +26,9 @@ We use trailing commas in multi-line table literals.
 Example:
 ```lua
 local foo = {
-    'bar',
+    "bar",
 }
-local bar = { 'baz' }
+local bar = { "baz" }
 ```
 
 ### Naming Conventions
@@ -51,6 +51,6 @@ function Foo:outputBar()
     print(self.bar)
 end
 
-local foo = Foo.new('bar');
+local foo = Foo.new("bar");
 foo.outputBar();
 ```
