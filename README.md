@@ -7,6 +7,8 @@ All developers should follow these guidelines to ensure a clean and consistent c
 ## Code Style
 Below are guidelines for languages that are commonly used in Inertia Lighting.
 
+- [HTML](./guides/html.md)
+- [CSS](./guides/css.md)
 - [JavaScript](./guides/javascript.md)
 - [Lua](./guides/lua.md)
 
