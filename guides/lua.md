@@ -52,5 +52,5 @@ function Foo:outputBar()
 end
 
 local foo = Foo.new("bar");
-foo.outputBar();
+foo:outputBar();
 ```
