@@ -1,9 +1,11 @@
-# Inertia Lighting | Code Style Guide | CSS
+# Inertia Lighting | [Code Style Guide](../README.md) > CSS
 
 ## Code Style
 
 ### Indentation
-We use 4 spaces for indentation.  
+
+We use 4 spaces for indentation.
+
 Example:
 ```css
 .thing {
@@ -12,7 +14,9 @@ Example:
 ```
 
 ### Quotation Marks
-We use single quotes for strings, values, and attributes.  
+
+We use single quotes for strings, values, and attributes.
+
 Example:
 ```css
 .foo {
@@ -20,12 +24,31 @@ Example:
 }
 ```
 
-### Naming Conventions
-We use snake_case for ids;  
-and kebab-case for tags, attributes, and classes.  
+### Brace Style
+
+We use braces on the same line as the selector declaration.
+
 Example:
 ```css
-#foo_bar {}
-.foo-bar {}
-my-thing[data-cool-stuff='enabled'] {}
+.foo {
+    --property: 'value';
+}
+```
+
+### Naming Conventions
+
+We use snake_case for ids;  
+and kebab-case for tags, attributes, and classes.
+
+Example:
+```css
+#foo_bar {
+    --property: 'value';
+}
+.foo-bar {
+    --property: 'value';
+}
+my-thing[data-cool-stuff='enabled'] {
+    --property: 'value';
+}
 ```

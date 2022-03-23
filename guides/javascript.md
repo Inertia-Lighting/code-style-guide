@@ -1,9 +1,11 @@
-# Inertia Lighting | Code Style Guide | JavaScript
+# Inertia Lighting | [Code Style Guide](../README.md) > JavaScript
 
 ## Code Style
 
 ### Indentation
-We use 4 spaces for indentation.  
+
+We use 4 spaces for indentation.
+
 Example:
 ```js
 function foo() {
@@ -12,7 +14,9 @@ function foo() {
 ```
 
 ### Quotation Marks
-We use single quotes for strings and graves for template literals.  
+
+We use single quotes for strings and graves for template literals.
+
 Example:
 ```js
 const foo = 'bar';
@@ -20,7 +24,9 @@ const bar = `${foo}`;
 ```
 
 ### Semi-colons
-We use semi-colons in our javascript.  
+
+We use semi-colons in our javascript.
+
 Example:
 ```js
 doSomething();
@@ -28,7 +34,9 @@ doSomethingElse();
 ```
 
 ### Trailing Commas
-We use trailing commas in multi-line array / object literals.  
+
+We use trailing commas in multi-line array / object literals.
+
 Example:
 ```js
 const foo = [
@@ -37,10 +45,23 @@ const foo = [
 const bar = [ 'baz' ];
 ```
 
+### Brace Style
+
+We use braces on the same line as the method declaration.
+
+Example:
+```js
+function someMethod() {
+    return 'bar';
+}
+```
+
 ### Naming Conventions
+
 We use snake_case for variable names;  
 camelCase for function / method names;  
-and PascalCase for class names.  
+and PascalCase for class names.
+
 Example:
 ```js
 class Foo {

@@ -1,9 +1,11 @@
-# Inertia Lighting | Code Style Guide | HTML
+# Inertia Lighting | [Code Style Guide](../README.md) > HTML
 
 ## Code Style
 
 ### Indentation
-We use 4 spaces for indentation.  
+
+We use 4 spaces for indentation.
+
 Example:
 ```html
 <div>
@@ -12,21 +14,27 @@ Example:
 ```
 
 ### Quotation Marks
-We use double quotes for attributes.  
+
+We use double quotes for attributes.
+
 Example:
 ```html
 <div class="container"></div>
 ```
 
 ### Escaping Lonely Tags
-We use a backslash to escape the closing tag.  
+
+We use a backslash to escape the closing tag.
+
 Example:
 ```html
 <img src="example.png" />
 ```
 
 ### Naming Conventions
-We use kebab-case for tags and attributes.  
+
+We use kebab-case for tags and attributes.
+
 Example:
 ```html
 <my-custom-element data-property="some random value"></my-custom-element>
